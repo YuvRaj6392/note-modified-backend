@@ -1,3 +1,3 @@
 module.exports={
-    url:'mongodb://0.0.0.0:27017/notesCopy'
+    url:'mongodb://https://technotes-api-u0ey.onrender.com/notesCopy'
 }
