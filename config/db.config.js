@@ -1,3 +1,3 @@
 module.exports={
-    url:'mongodb://0.0.0.0:27017/notesCopy'
+    url:'mongodb+srv://yuvrajsrivastava6392:<@Naruto1234#>@cluster0.pc1mwwd.mongodb.net/test'
 }
