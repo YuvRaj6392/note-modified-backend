@@ -4,7 +4,7 @@ const bodyParser=require('body-parser');
 const cors=require('cors');
 const app=express();
 var corsOption={
-    origin:"http://localhost:3000"
+    origin:"https://technotes-gl5i.onrender.com"
 };
 app.use(cors(corsOption));
 db.mongoose.connect(db.url,{
