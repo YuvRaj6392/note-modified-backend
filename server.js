@@ -7,6 +7,7 @@ var corsOption={
     origin:"https://technotes-gl5i.onrender.com"
 };
 app.use(cors(corsOption));
+mongoose.set('strictQuery', true);
 db.mongoose.connect(db.url,{
     useNewUrlParser: true,
     useUnifiedTopology: true
